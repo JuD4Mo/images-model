@@ -1,0 +1,25 @@
+# Entorno virtual
+.venv/
+venv/
+env/
+ENV/
+
+# Dataset (308 MB, no se sube a GitHub)
+sportimages/
+
+# test
+test/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Modelos y datos generados (opcional decidir)
+# *.h5
+# sports_cnn_savedmodel/

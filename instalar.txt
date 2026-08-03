@@ -1,0 +1,69 @@
+pip install tensorflow
+pip install numpy
+pip install sklearn
+pip install keras
+pip install MATPLOTLIB
+pip install imageio
+pip install opencv-python
+python -m pip install -U scikit-image
+pip install pandas
+pip3 install scikit-learn
+
+pip install matplotlib
+pip install pandas
+pip3 install scikit-learn
+pip install opencv-python
+pip install imageio
+pip install scikit-image
+
+
+python -m pip install -U pip
+
+from tensorflow.keras.utils import to_categorical
+
+conda install -c conda-forge scikit-learn  
+comentar from sklearn.model_selection import train_test_split
+#from keras.utils import to_categorical
+
+pip install os
+conda install os
+
+---------------
+
+pip install tensorflow-gpu==2.6.0
+pip install "tensorflow==2.16.1"
+
+pip install scikit-learn opencv-python scikit-image pandas matplotlib numpy
+
+
+nvidia-smi
+nvcc --version Verificar instalación de CUDA Toolkit
+cuda : C:\Users\PERSONAL>nvcc --version
+nvcc: NVIDIA (R) Cuda compiler driver
+Copyright (c) 2005-2020 NVIDIA Corporation
+Built on Mon_Nov_30_19:15:10_Pacific_Standard_Time_2020
+Cuda compilation tools, release 11.2, V11.2.67
+Build cuda_11.2.r11.2/compiler.29373293_0
+
+Verificar variables de entorno de CUDA
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\libnvvp
+
+Verificar cuDNN
+C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\bin
+busca cudnn64_8.dll  en  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\include
+busca cudnn.h  cudnn.lib   en C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.2\lib\x64
+
+Verificar desde Python / TensorFlow
+import tensorflow as tf
+print("Versión TensorFlow:", tf.__version__)
+print("GPUs detectadas:", tf.config.list_physical_devices('GPU'))
+
+pip install tensorflow==2.16.1
+
+
+  
+
+
+
